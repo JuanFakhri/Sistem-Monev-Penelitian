@@ -1,0 +1,50 @@
+CRITICAL - 2022-04-11 00:01:14 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to string
+#0 C:\xampp\htdocs\kkp_login\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\kkp_login\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\kkp_login\system\Common.php(1089): CodeIgniter\View\View->render('prodi/home_prod...', Array, true)
+#3 C:\xampp\htdocs\kkp_login\app\Controllers\Home.php(38): view('prodi/home_prod...', Array)
+#4 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(832): App\Controllers\Home->home_prodi()
+#5 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\kkp_login\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-11 01:10:32 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\kkp_login\app\Views\prodi\home_prodi.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\kkp_login\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kkp_login\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kkp_login\system\Common.php(1089): CodeIgniter\View\View->render('prodi/home_prod...', Array, true)
+#4 C:\xampp\htdocs\kkp_login\app\Controllers\Home.php(38): view('prodi/home_prod...', Array)
+#5 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(832): App\Controllers\Home->home_prodi()
+#6 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kkp_login\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-11 01:14:51 --> syntax error, unexpected token "endforeach", expecting end of file
+#0 C:\xampp\htdocs\kkp_login\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\kkp_login\system\Common.php(1089): CodeIgniter\View\View->render('prodi/home_prod...', Array, true)
+#2 C:\xampp\htdocs\kkp_login\app\Controllers\Home.php(38): view('prodi/home_prod...', Array)
+#3 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(832): App\Controllers\Home->home_prodi()
+#4 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kkp_login\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-11 01:15:33 --> syntax error, unexpected token "endforeach", expecting end of file
+#0 C:\xampp\htdocs\kkp_login\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\kkp_login\system\Common.php(1089): CodeIgniter\View\View->render('prodi/home_prod...', Array, true)
+#2 C:\xampp\htdocs\kkp_login\app\Controllers\Home.php(38): view('prodi/home_prod...', Array)
+#3 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(832): App\Controllers\Home->home_prodi()
+#4 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kkp_login\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-11 01:17:09 --> Undefined variable $komik
+#0 C:\xampp\htdocs\kkp_login\app\Views\prodi\home_prodi.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 19)
+#1 C:\xampp\htdocs\kkp_login\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kkp_login\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kkp_login\system\Common.php(1089): CodeIgniter\View\View->render('prodi/home_prod...', Array, true)
+#4 C:\xampp\htdocs\kkp_login\app\Controllers\Home.php(38): view('prodi/home_prod...', Array)
+#5 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(832): App\Controllers\Home->home_prodi()
+#6 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kkp_login\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

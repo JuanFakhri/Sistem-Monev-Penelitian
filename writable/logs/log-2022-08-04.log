@@ -1,0 +1,54 @@
+CRITICAL - 2022-08-04 04:39:02 --> unlink(public/upload/file_sesuai_petajalan/182937_SOAL UAS  Logika Informatika.pdf): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(public/u...', 'C:\\xampp\\htdocs...', 44)
+#1 C:\xampp\htdocs\kkp_login\app\Models\M_Siswa.php(44): unlink('public/upload/f...')
+#2 C:\xampp\htdocs\kkp_login\app\Controllers\Backend.php(253): App\Models\M_Siswa->hapus2('68 ', 'JuanFakhri_3119...', '182937_SOAL UAS...')
+#3 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(832): App\Controllers\Backend->hapus2('68 ', 'JuanFakhri_3119...', '182937_SOAL UAS...')
+#4 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+#5 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kkp_login\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-08-04 04:39:05 --> unlink(public/upload/file_coba_petajalan/JuanFakhri_311910361_TI.19.D.5_UTS_MATEMATIKA_DISKRIT.pdf): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(public/u...', 'C:\\xampp\\htdocs...', 42)
+#1 C:\xampp\htdocs\kkp_login\app\Models\M_Siswa.php(42): unlink('public/upload/f...')
+#2 C:\xampp\htdocs\kkp_login\app\Controllers\Backend.php(253): App\Models\M_Siswa->hapus2('68 ', 'JuanFakhri_3119...', '182937_SOAL UAS...')
+#3 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(832): App\Controllers\Backend->hapus2('68 ', 'JuanFakhri_3119...', '182937_SOAL UAS...')
+#4 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+#5 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kkp_login\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-08-04 04:39:06 --> unlink(public/upload/file_coba_petajalan/JuanFakhri_311910361_TI.19.D.5_UTS_MATEMATIKA_DISKRIT.pdf): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(public/u...', 'C:\\xampp\\htdocs...', 42)
+#1 C:\xampp\htdocs\kkp_login\app\Models\M_Siswa.php(42): unlink('public/upload/f...')
+#2 C:\xampp\htdocs\kkp_login\app\Controllers\Backend.php(253): App\Models\M_Siswa->hapus2('68 ', 'JuanFakhri_3119...', '182937_SOAL UAS...')
+#3 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(832): App\Controllers\Backend->hapus2('68 ', 'JuanFakhri_3119...', '182937_SOAL UAS...')
+#4 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+#5 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kkp_login\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-08-04 04:39:13 --> unlink(public/upload/file_coba_petajalan/JuanFakhri_311910361_TI.19.D.5_UTS_MATEMATIKA_DISKRIT.pdf): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(public/u...', 'C:\\xampp\\htdocs...', 42)
+#1 C:\xampp\htdocs\kkp_login\app\Models\M_Siswa.php(42): unlink('public/upload/f...')
+#2 C:\xampp\htdocs\kkp_login\app\Controllers\Backend.php(253): App\Models\M_Siswa->hapus2('68 ', 'JuanFakhri_3119...', '182937_SOAL UAS...')
+#3 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(832): App\Controllers\Backend->hapus2('68 ', 'JuanFakhri_3119...', '182937_SOAL UAS...')
+#4 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+#5 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kkp_login\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-08-04 04:39:23 --> unlink(public/upload/file_coba_petajalan/JuanFakhri_311910361_TI.19.D.5_UTS_MATEMATIKA_DISKRIT.pdf): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(public/u...', 'C:\\xampp\\htdocs...', 42)
+#1 C:\xampp\htdocs\kkp_login\app\Models\M_Siswa.php(42): unlink('public/upload/f...')
+#2 C:\xampp\htdocs\kkp_login\app\Controllers\Backend.php(253): App\Models\M_Siswa->hapus2('68 ', 'JuanFakhri_3119...', '182937_SOAL UAS...')
+#3 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(832): App\Controllers\Backend->hapus2('68 ', 'JuanFakhri_3119...', '182937_SOAL UAS...')
+#4 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+#5 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kkp_login\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-08-04 04:40:00 --> unlink(public/upload/file_coba_petajalan/JuanFakhri_311910361_TI.19.D.5_UTS_MATEMATIKA_DISKRIT.pdf): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(public/u...', 'C:\\xampp\\htdocs...', 42)
+#1 C:\xampp\htdocs\kkp_login\app\Models\M_Siswa.php(42): unlink('public/upload/f...')
+#2 C:\xampp\htdocs\kkp_login\app\Controllers\Backend.php(253): App\Models\M_Siswa->hapus2('68 ', 'JuanFakhri_3119...', '182937_SOAL UAS...')
+#3 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(832): App\Controllers\Backend->hapus2('68 ', 'JuanFakhri_3119...', '182937_SOAL UAS...')
+#4 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+#5 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kkp_login\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

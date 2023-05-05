@@ -1,0 +1,198 @@
+CRITICAL - 2022-04-26 04:14:57 --> Attempt to read property "username" on null
+#0 C:\xampp\htdocs\kkp_login\app\Views\layout\v_topbar.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 18)
+#1 C:\xampp\htdocs\kkp_login\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kkp_login\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kkp_login\system\Common.php(1089): CodeIgniter\View\View->render('layout/v_topbar', Array, true)
+#4 C:\xampp\htdocs\kkp_login\app\Controllers\Backend.php(34): view('layout/v_topbar')
+#5 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(832): App\Controllers\Backend->dashboard()
+#6 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+#7 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kkp_login\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-26 04:15:56 --> Attempt to read property "username" on null
+#0 C:\xampp\htdocs\kkp_login\app\Views\layout\v_topbar.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 18)
+#1 C:\xampp\htdocs\kkp_login\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kkp_login\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kkp_login\system\Common.php(1089): CodeIgniter\View\View->render('layout/v_topbar', Array, true)
+#4 C:\xampp\htdocs\kkp_login\app\Controllers\Backend.php(34): view('layout/v_topbar')
+#5 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(832): App\Controllers\Backend->dashboard()
+#6 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+#7 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kkp_login\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-26 22:31:15 --> Undefined variable $siswa
+#0 C:\xampp\htdocs\kkp_login\app\Views\m_penelitian\monev_penelitian.php(215): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 215)
+#1 C:\xampp\htdocs\kkp_login\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kkp_login\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kkp_login\system\Common.php(1089): CodeIgniter\View\View->render('m_penelitian/mo...', Array, true)
+#4 C:\xampp\htdocs\kkp_login\app\Controllers\Backend.php(29): view('m_penelitian/mo...')
+#5 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(832): App\Controllers\Backend->monev_penelitian()
+#6 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+#7 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kkp_login\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-26 22:32:34 --> Undefined variable $siswa
+#0 C:\xampp\htdocs\kkp_login\app\Views\m_penelitian\monev_penelitian.php(215): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 215)
+#1 C:\xampp\htdocs\kkp_login\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kkp_login\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kkp_login\system\Common.php(1089): CodeIgniter\View\View->render('m_penelitian/mo...', Array, true)
+#4 C:\xampp\htdocs\kkp_login\app\Controllers\Backend.php(29): view('m_penelitian/mo...')
+#5 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(832): App\Controllers\Backend->monev_penelitian()
+#6 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+#7 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kkp_login\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-26 22:35:57 --> Undefined variable $siswa
+#0 C:\xampp\htdocs\kkp_login\app\Views\m_penelitian\monev_penelitian.php(215): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 215)
+#1 C:\xampp\htdocs\kkp_login\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kkp_login\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kkp_login\system\Common.php(1089): CodeIgniter\View\View->render('m_penelitian/mo...', Array, true)
+#4 C:\xampp\htdocs\kkp_login\app\Controllers\Backend.php(29): view('m_penelitian/mo...')
+#5 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(832): App\Controllers\Backend->monev_penelitian()
+#6 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+#7 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kkp_login\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-26 22:36:03 --> Undefined variable $siswa
+#0 C:\xampp\htdocs\kkp_login\app\Views\m_penelitian\monev_penelitian.php(215): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 215)
+#1 C:\xampp\htdocs\kkp_login\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kkp_login\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kkp_login\system\Common.php(1089): CodeIgniter\View\View->render('m_penelitian/mo...', Array, true)
+#4 C:\xampp\htdocs\kkp_login\app\Controllers\Backend.php(29): view('m_penelitian/mo...')
+#5 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(832): App\Controllers\Backend->monev_penelitian()
+#6 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+#7 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kkp_login\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-26 22:37:12 --> Undefined variable $penel
+#0 C:\xampp\htdocs\kkp_login\app\Views\m_penelitian\monev_penelitian.php(215): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 215)
+#1 C:\xampp\htdocs\kkp_login\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kkp_login\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kkp_login\system\Common.php(1089): CodeIgniter\View\View->render('m_penelitian/mo...', Array, true)
+#4 C:\xampp\htdocs\kkp_login\app\Controllers\Backend.php(34): view('m_penelitian/mo...')
+#5 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(832): App\Controllers\Backend->monev_penelitian()
+#6 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+#7 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kkp_login\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-26 22:37:19 --> Undefined variable $penel
+#0 C:\xampp\htdocs\kkp_login\app\Views\m_penelitian\monev_penelitian.php(215): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 215)
+#1 C:\xampp\htdocs\kkp_login\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kkp_login\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kkp_login\system\Common.php(1089): CodeIgniter\View\View->render('m_penelitian/mo...', Array, true)
+#4 C:\xampp\htdocs\kkp_login\app\Controllers\Backend.php(34): view('m_penelitian/mo...')
+#5 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(832): App\Controllers\Backend->monev_penelitian()
+#6 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+#7 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kkp_login\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-26 22:39:03 --> Undefined array key "tahun"
+#0 C:\xampp\htdocs\kkp_login\app\Views\m_penelitian\monev_penelitian.php(218): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 218)
+#1 C:\xampp\htdocs\kkp_login\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kkp_login\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kkp_login\system\Common.php(1089): CodeIgniter\View\View->render('m_penelitian/mo...', Array, true)
+#4 C:\xampp\htdocs\kkp_login\app\Controllers\Backend.php(34): view('m_penelitian/mo...', Array)
+#5 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(832): App\Controllers\Backend->monev_penelitian()
+#6 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+#7 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kkp_login\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-04-26 22:42:00 --> Unknown column 'tahun' in 'field list'
+CRITICAL - 2022-04-26 22:42:00 --> Unknown column 'tahun' in 'field list'
+#0 C:\xampp\htdocs\kkp_login\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `si...', 0)
+#1 C:\xampp\htdocs\kkp_login\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `si...')
+#2 C:\xampp\htdocs\kkp_login\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `si...')
+#3 C:\xampp\htdocs\kkp_login\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `si...', Array, false)
+#4 C:\xampp\htdocs\kkp_login\app\Models\M_Siswa.php(31): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\kkp_login\app\Controllers\Backend.php(146): App\Models\M_Siswa->tambah2(Array)
+#6 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(832): App\Controllers\Backend->tambah_data2()
+#7 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+#8 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\kkp_login\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-04-26 22:43:36 --> Undefined array key "namahasiswa"
+#0 C:\xampp\htdocs\kkp_login\app\Views\m_penelitian\monev_penelitian.php(220): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 220)
+#1 C:\xampp\htdocs\kkp_login\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kkp_login\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kkp_login\system\Common.php(1089): CodeIgniter\View\View->render('m_penelitian/mo...', Array, true)
+#4 C:\xampp\htdocs\kkp_login\app\Controllers\Backend.php(34): view('m_penelitian/mo...', Array)
+#5 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(832): App\Controllers\Backend->monev_penelitian()
+#6 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+#7 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kkp_login\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-04-26 22:45:03 --> Unknown column 'tahun' in 'field list'
+CRITICAL - 2022-04-26 22:45:03 --> Unknown column 'tahun' in 'field list'
+#0 C:\xampp\htdocs\kkp_login\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `si...', 0)
+#1 C:\xampp\htdocs\kkp_login\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `si...')
+#2 C:\xampp\htdocs\kkp_login\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `si...')
+#3 C:\xampp\htdocs\kkp_login\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `si...', Array, false)
+#4 C:\xampp\htdocs\kkp_login\app\Models\M_Siswa.php(31): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\kkp_login\app\Controllers\Backend.php(146): App\Models\M_Siswa->tambah2(Array)
+#6 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(832): App\Controllers\Backend->tambah_data2()
+#7 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+#8 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\kkp_login\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-04-26 22:46:37 --> Unknown column 'namahasiswa' in 'field list'
+CRITICAL - 2022-04-26 22:46:37 --> Unknown column 'namahasiswa' in 'field list'
+#0 C:\xampp\htdocs\kkp_login\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `da...', 0)
+#1 C:\xampp\htdocs\kkp_login\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `da...')
+#2 C:\xampp\htdocs\kkp_login\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `da...')
+#3 C:\xampp\htdocs\kkp_login\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `da...', Array, false)
+#4 C:\xampp\htdocs\kkp_login\app\Models\M_Siswa.php(31): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\kkp_login\app\Controllers\Backend.php(146): App\Models\M_Siswa->tambah2(Array)
+#6 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(832): App\Controllers\Backend->tambah_data2()
+#7 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+#8 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\kkp_login\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-04-26 22:54:05 --> Undefined variable $data_penelitian
+#0 C:\xampp\htdocs\kkp_login\app\Views\dashboard.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 86)
+#1 C:\xampp\htdocs\kkp_login\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kkp_login\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kkp_login\system\Common.php(1089): CodeIgniter\View\View->render('/dashboard', Array, true)
+#4 C:\xampp\htdocs\kkp_login\app\Controllers\Backend.php(44): view('/dashboard')
+#5 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(832): App\Controllers\Backend->dashboard()
+#6 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+#7 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kkp_login\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-26 22:55:51 --> Undefined variable $model
+#0 C:\xampp\htdocs\kkp_login\app\Controllers\Backend.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 40)
+#1 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(832): App\Controllers\Backend->dashboard()
+#2 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+#3 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kkp_login\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-26 22:56:00 --> Undefined variable $model
+#0 C:\xampp\htdocs\kkp_login\app\Controllers\Backend.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 40)
+#1 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(832): App\Controllers\Backend->dashboard()
+#2 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+#3 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kkp_login\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-04-26 22:56:19 --> Table 'monev_penelitian.data_penel' doesn't exist
+CRITICAL - 2022-04-26 22:56:19 --> Table 'monev_penelitian.data_penel' doesn't exist
+#0 C:\xampp\htdocs\kkp_login\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(na...', 0)
+#1 C:\xampp\htdocs\kkp_login\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(na...')
+#2 C:\xampp\htdocs\kkp_login\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(na...')
+#3 C:\xampp\htdocs\kkp_login\app\Models\M_Siswa.php(39): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(na...')
+#4 C:\xampp\htdocs\kkp_login\app\Controllers\Backend.php(41): App\Models\M_Siswa->gerafikpenelitian()
+#5 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(832): App\Controllers\Backend->dashboard()
+#6 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+#7 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kkp_login\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-04-26 22:57:00 --> Unknown column 'namahasiswa' in 'where clause'
+CRITICAL - 2022-04-26 22:57:00 --> Unknown column 'namahasiswa' in 'where clause'
+#0 C:\xampp\htdocs\kkp_login\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(na...', 0)
+#1 C:\xampp\htdocs\kkp_login\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(na...')
+#2 C:\xampp\htdocs\kkp_login\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(na...')
+#3 C:\xampp\htdocs\kkp_login\app\Models\M_Siswa.php(39): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(na...')
+#4 C:\xampp\htdocs\kkp_login\app\Controllers\Backend.php(41): App\Models\M_Siswa->gerafikpenelitian()
+#5 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(832): App\Controllers\Backend->dashboard()
+#6 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+#7 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kkp_login\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

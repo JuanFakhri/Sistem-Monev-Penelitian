@@ -1,0 +1,169 @@
+CRITICAL - 2022-04-08 21:58:50 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\kkp_login\app\Controllers\Auth.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 59)
+#1 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(832): App\Controllers\Auth->get_login()
+#2 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kkp_login\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-08 21:59:30 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\kkp_login\app\Controllers\Auth.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 59)
+#1 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(832): App\Controllers\Auth->get_login()
+#2 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kkp_login\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-08 22:01:41 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\kkp_login\app\Controllers\Auth.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 59)
+#1 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(832): App\Controllers\Auth->get_login()
+#2 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kkp_login\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-08 22:02:09 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\kkp_login\app\Controllers\Auth.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 59)
+#1 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(832): App\Controllers\Auth->get_login()
+#2 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kkp_login\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-08 22:02:13 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\kkp_login\app\Controllers\Auth.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 59)
+#1 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(832): App\Controllers\Auth->get_login()
+#2 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kkp_login\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-08 22:31:08 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\kkp_login\app\Models\AuthModel.php(12): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\kkp_login\app\Controllers\Auth.php(57): App\Models\AuthModel->get_data_login('', NULL, '1')
+#2 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(832): App\Controllers\Auth->get_login()
+#3 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#4 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\kkp_login\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-08 22:35:40 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\kkp_login\app\Models\AuthModel.php(12): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\kkp_login\app\Controllers\Auth.php(57): App\Models\AuthModel->get_data_login('', NULL, '1')
+#2 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(832): App\Controllers\Auth->get_login()
+#3 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#4 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\kkp_login\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-08 22:35:50 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\kkp_login\app\Models\AuthModel.php(12): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\kkp_login\app\Controllers\Auth.php(57): App\Models\AuthModel->get_data_login('', NULL, '1')
+#2 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(832): App\Controllers\Auth->get_login()
+#3 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#4 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\kkp_login\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-08 22:36:09 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\kkp_login\app\Models\AuthModel.php(12): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\kkp_login\app\Controllers\Auth.php(57): App\Models\AuthModel->get_data_login('', NULL, '1')
+#2 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(832): App\Controllers\Auth->get_login()
+#3 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#4 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\kkp_login\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-08 22:36:22 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\kkp_login\app\Models\AuthModel.php(12): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\kkp_login\app\Controllers\Auth.php(57): App\Models\AuthModel->get_data_login('', NULL, '1')
+#2 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(832): App\Controllers\Auth->get_login()
+#3 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#4 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\kkp_login\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-08 22:36:25 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\kkp_login\app\Models\AuthModel.php(12): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\kkp_login\app\Controllers\Auth.php(57): App\Models\AuthModel->get_data_login('', NULL, '1')
+#2 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(832): App\Controllers\Auth->get_login()
+#3 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#4 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\kkp_login\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-08 22:36:51 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\kkp_login\app\Models\AuthModel.php(12): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\kkp_login\app\Controllers\Auth.php(57): App\Models\AuthModel->get_data_login('', NULL, '1')
+#2 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(832): App\Controllers\Auth->get_login()
+#3 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#4 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\kkp_login\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-08 22:37:19 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\kkp_login\app\Models\AuthModel.php(12): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\kkp_login\app\Controllers\Auth.php(57): App\Models\AuthModel->get_data_login('', NULL, '1')
+#2 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(832): App\Controllers\Auth->get_login()
+#3 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#4 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\kkp_login\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-08 22:38:33 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\kkp_login\app\Models\AuthModel.php(12): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\kkp_login\app\Controllers\Auth.php(57): App\Models\AuthModel->get_data_login('', NULL, '1')
+#2 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(832): App\Controllers\Auth->get_login()
+#3 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#4 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\kkp_login\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-08 22:38:41 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\kkp_login\app\Models\AuthModel.php(12): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\kkp_login\app\Controllers\Auth.php(57): App\Models\AuthModel->get_data_login('juan', NULL, '1')
+#2 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(832): App\Controllers\Auth->get_login()
+#3 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#4 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\kkp_login\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-08 22:40:03 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\kkp_login\app\Models\AuthModel.php(12): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\kkp_login\app\Controllers\Auth.php(57): App\Models\AuthModel->get_data_login('juan', NULL, '1')
+#2 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(832): App\Controllers\Auth->get_login()
+#3 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#4 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\kkp_login\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-08 22:40:09 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\kkp_login\app\Models\AuthModel.php(12): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\kkp_login\app\Controllers\Auth.php(57): App\Models\AuthModel->get_data_login('juan', NULL, '1')
+#2 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(832): App\Controllers\Auth->get_login()
+#3 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#4 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\kkp_login\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-08 22:40:13 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\kkp_login\app\Models\AuthModel.php(12): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\kkp_login\app\Controllers\Auth.php(57): App\Models\AuthModel->get_data_login('', NULL, '1')
+#2 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(832): App\Controllers\Auth->get_login()
+#3 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#4 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\kkp_login\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-08 22:41:23 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\kkp_login\app\Models\AuthModel.php(12): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\kkp_login\app\Controllers\Auth.php(57): App\Models\AuthModel->get_data_login('', NULL)
+#2 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(832): App\Controllers\Auth->get_login()
+#3 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#4 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\kkp_login\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-08 22:41:27 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\kkp_login\app\Models\AuthModel.php(12): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\kkp_login\app\Controllers\Auth.php(57): App\Models\AuthModel->get_data_login('', NULL)
+#2 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(832): App\Controllers\Auth->get_login()
+#3 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#4 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\kkp_login\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-08 23:53:30 --> Attempt to read property "password" on null
+#0 C:\xampp\htdocs\kkp_login\app\Controllers\Auth.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 63)
+#1 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(832): App\Controllers\Auth->get_login()
+#2 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kkp_login\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-08 23:53:42 --> Attempt to read property "password" on null
+#0 C:\xampp\htdocs\kkp_login\app\Controllers\Auth.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 63)
+#1 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(832): App\Controllers\Auth->get_login()
+#2 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kkp_login\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

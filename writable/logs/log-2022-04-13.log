@@ -1,0 +1,292 @@
+CRITICAL - 2022-04-13 01:40:05 --> Undefined variable $siswa
+#0 C:\xampp\htdocs\kkp_login\app\Views\anggota\home_anggota.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 39)
+#1 C:\xampp\htdocs\kkp_login\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kkp_login\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kkp_login\system\Common.php(1089): CodeIgniter\View\View->render('anggota/home_an...', Array, true)
+#4 C:\xampp\htdocs\kkp_login\app\Controllers\Login.php(12): view('anggota/home_an...')
+#5 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(832): App\Controllers\Login->index()
+#6 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kkp_login\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-13 01:40:32 --> Undefined variable $siswa
+#0 C:\xampp\htdocs\kkp_login\app\Views\anggota\home_anggota.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 39)
+#1 C:\xampp\htdocs\kkp_login\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kkp_login\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kkp_login\system\Common.php(1089): CodeIgniter\View\View->render('anggota/home_an...', Array, true)
+#4 C:\xampp\htdocs\kkp_login\app\Controllers\Login.php(12): view('anggota/home_an...')
+#5 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(832): App\Controllers\Login->index()
+#6 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kkp_login\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-13 09:57:57 --> Object of class stdClass could not be converted to int
+#0 C:\xampp\htdocs\kkp_login\app\Controllers\Auth.php(73): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Object of class...', 'C:\\xampp\\htdocs...', 73)
+#1 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(832): App\Controllers\Auth->get_login()
+#2 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kkp_login\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-13 09:59:09 --> Object of class stdClass could not be converted to int
+#0 C:\xampp\htdocs\kkp_login\app\Controllers\Auth.php(73): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Object of class...', 'C:\\xampp\\htdocs...', 73)
+#1 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(832): App\Controllers\Auth->get_login()
+#2 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kkp_login\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-13 10:21:27 --> Object of class App\Models\AuthModel could not be converted to string
+#0 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(832): App\Controllers\Auth->get_login()
+#1 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\kkp_login\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-13 10:22:11 --> Object of class App\Models\AuthModel could not be converted to string
+#0 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(832): App\Controllers\Auth->get_login()
+#1 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\kkp_login\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-13 10:22:54 --> Object of class App\Models\AuthModel could not be converted to string
+#0 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(832): App\Controllers\Auth->get_login()
+#1 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\kkp_login\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-04-13 10:23:21 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+CRITICAL - 2022-04-13 10:23:21 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+#0 C:\xampp\htdocs\kkp_login\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT akses FR...', 0)
+#1 C:\xampp\htdocs\kkp_login\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT akses FR...')
+#2 C:\xampp\htdocs\kkp_login\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT akses FR...')
+#3 C:\xampp\htdocs\kkp_login\app\Models\AuthModel.php(21): CodeIgniter\Database\BaseConnection->query('SELECT akses FR...')
+#4 C:\xampp\htdocs\kkp_login\app\Controllers\Auth.php(60): App\Models\AuthModel->get_data_akses('3')
+#5 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(832): App\Controllers\Auth->get_login()
+#6 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kkp_login\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-04-13 10:26:02 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+CRITICAL - 2022-04-13 10:26:02 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+#0 C:\xampp\htdocs\kkp_login\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT akses FR...', 0)
+#1 C:\xampp\htdocs\kkp_login\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT akses FR...')
+#2 C:\xampp\htdocs\kkp_login\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT akses FR...')
+#3 C:\xampp\htdocs\kkp_login\app\Models\AuthModel.php(21): CodeIgniter\Database\BaseConnection->query('SELECT akses FR...')
+#4 C:\xampp\htdocs\kkp_login\app\Controllers\Auth.php(60): App\Models\AuthModel->get_data_akses('3')
+#5 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(832): App\Controllers\Auth->get_login()
+#6 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kkp_login\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-13 10:28:57 --> Undefined property: App\Controllers\Auth::$db
+#0 C:\xampp\htdocs\kkp_login\app\Controllers\Auth.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 60)
+#1 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(832): App\Controllers\Auth->get_login()
+#2 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kkp_login\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-13 10:33:21 --> Object of class CodeIgniter\Database\MySQLi\Connection could not be converted to string
+#0 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(832): App\Controllers\Auth->get_login()
+#1 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\kkp_login\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-13 10:44:40 --> Uninitialized string offset 1
+#0 C:\xampp\htdocs\kkp_login\app\Controllers\Auth.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Uninitialized s...', 'C:\\xampp\\htdocs...', 71)
+#1 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(832): App\Controllers\Auth->get_login()
+#2 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kkp_login\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-13 10:45:08 --> Uninitialized string offset 1
+#0 C:\xampp\htdocs\kkp_login\app\Controllers\Auth.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Uninitialized s...', 'C:\\xampp\\htdocs...', 71)
+#1 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(832): App\Controllers\Auth->get_login()
+#2 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kkp_login\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-13 10:45:29 --> Uninitialized string offset 1
+#0 C:\xampp\htdocs\kkp_login\app\Controllers\Auth.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Uninitialized s...', 'C:\\xampp\\htdocs...', 71)
+#1 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(832): App\Controllers\Auth->get_login()
+#2 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kkp_login\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-13 10:48:29 --> Uninitialized string offset 1
+#0 C:\xampp\htdocs\kkp_login\app\Controllers\Auth.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Uninitialized s...', 'C:\\xampp\\htdocs...', 71)
+#1 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(832): App\Controllers\Auth->get_login()
+#2 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kkp_login\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-13 10:49:00 --> Call to undefined method stdClass::akses()
+#0 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(832): App\Controllers\Auth->get_login()
+#1 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\kkp_login\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-13 10:51:53 --> Uninitialized string offset 1
+#0 C:\xampp\htdocs\kkp_login\app\Controllers\Auth.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Uninitialized s...', 'C:\\xampp\\htdocs...', 71)
+#1 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(832): App\Controllers\Auth->get_login()
+#2 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kkp_login\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-13 11:06:21 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to int
+#0 C:\xampp\htdocs\kkp_login\app\Controllers\Auth.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Object of class...', 'C:\\xampp\\htdocs...', 71)
+#1 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(832): App\Controllers\Auth->get_login()
+#2 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kkp_login\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-13 20:05:06 --> strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'strpos(): Passi...', 'C:\\xampp\\htdocs...', 413)
+#1 C:\xampp\htdocs\kkp_login\system\Debug\Toolbar.php(413): strpos(NULL, '<head>')
+#2 C:\xampp\htdocs\kkp_login\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+#3 C:\xampp\htdocs\kkp_login\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), NULL)
+#4 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(436): CodeIgniter\Filters\Filters->run('/', 'after')
+#5 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kkp_login\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-13 20:05:23 --> strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'strpos(): Passi...', 'C:\\xampp\\htdocs...', 413)
+#1 C:\xampp\htdocs\kkp_login\system\Debug\Toolbar.php(413): strpos(NULL, '<head>')
+#2 C:\xampp\htdocs\kkp_login\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+#3 C:\xampp\htdocs\kkp_login\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), NULL)
+#4 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(436): CodeIgniter\Filters\Filters->run('dashboard', 'after')
+#5 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kkp_login\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-13 20:05:31 --> strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'strpos(): Passi...', 'C:\\xampp\\htdocs...', 413)
+#1 C:\xampp\htdocs\kkp_login\system\Debug\Toolbar.php(413): strpos(NULL, '<head>')
+#2 C:\xampp\htdocs\kkp_login\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+#3 C:\xampp\htdocs\kkp_login\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), NULL)
+#4 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(436): CodeIgniter\Filters\Filters->run('dashboard', 'after')
+#5 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kkp_login\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-13 20:05:56 --> strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'strpos(): Passi...', 'C:\\xampp\\htdocs...', 413)
+#1 C:\xampp\htdocs\kkp_login\system\Debug\Toolbar.php(413): strpos(NULL, '<head>')
+#2 C:\xampp\htdocs\kkp_login\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+#3 C:\xampp\htdocs\kkp_login\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), NULL)
+#4 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(436): CodeIgniter\Filters\Filters->run('/', 'after')
+#5 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kkp_login\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-13 20:05:57 --> strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'strpos(): Passi...', 'C:\\xampp\\htdocs...', 413)
+#1 C:\xampp\htdocs\kkp_login\system\Debug\Toolbar.php(413): strpos(NULL, '<head>')
+#2 C:\xampp\htdocs\kkp_login\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+#3 C:\xampp\htdocs\kkp_login\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), NULL)
+#4 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(436): CodeIgniter\Filters\Filters->run('/', 'after')
+#5 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kkp_login\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-13 20:09:42 --> strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'strpos(): Passi...', 'C:\\xampp\\htdocs...', 413)
+#1 C:\xampp\htdocs\kkp_login\system\Debug\Toolbar.php(413): strpos(NULL, '<head>')
+#2 C:\xampp\htdocs\kkp_login\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+#3 C:\xampp\htdocs\kkp_login\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), NULL)
+#4 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(436): CodeIgniter\Filters\Filters->run('/', 'after')
+#5 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kkp_login\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-13 20:09:44 --> strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'strpos(): Passi...', 'C:\\xampp\\htdocs...', 413)
+#1 C:\xampp\htdocs\kkp_login\system\Debug\Toolbar.php(413): strpos(NULL, '<head>')
+#2 C:\xampp\htdocs\kkp_login\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+#3 C:\xampp\htdocs\kkp_login\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), NULL)
+#4 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(436): CodeIgniter\Filters\Filters->run('/', 'after')
+#5 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kkp_login\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-13 20:09:46 --> strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'strpos(): Passi...', 'C:\\xampp\\htdocs...', 413)
+#1 C:\xampp\htdocs\kkp_login\system\Debug\Toolbar.php(413): strpos(NULL, '<head>')
+#2 C:\xampp\htdocs\kkp_login\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+#3 C:\xampp\htdocs\kkp_login\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), NULL)
+#4 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(436): CodeIgniter\Filters\Filters->run('/', 'after')
+#5 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kkp_login\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-13 20:11:54 --> strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'strpos(): Passi...', 'C:\\xampp\\htdocs...', 413)
+#1 C:\xampp\htdocs\kkp_login\system\Debug\Toolbar.php(413): strpos(NULL, '<head>')
+#2 C:\xampp\htdocs\kkp_login\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+#3 C:\xampp\htdocs\kkp_login\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), NULL)
+#4 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(436): CodeIgniter\Filters\Filters->run('dashboard', 'after')
+#5 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kkp_login\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-13 20:12:37 --> strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'strpos(): Passi...', 'C:\\xampp\\htdocs...', 413)
+#1 C:\xampp\htdocs\kkp_login\system\Debug\Toolbar.php(413): strpos(NULL, '<head>')
+#2 C:\xampp\htdocs\kkp_login\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+#3 C:\xampp\htdocs\kkp_login\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), NULL)
+#4 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(436): CodeIgniter\Filters\Filters->run('/', 'after')
+#5 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kkp_login\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-13 20:12:38 --> strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'strpos(): Passi...', 'C:\\xampp\\htdocs...', 413)
+#1 C:\xampp\htdocs\kkp_login\system\Debug\Toolbar.php(413): strpos(NULL, '<head>')
+#2 C:\xampp\htdocs\kkp_login\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+#3 C:\xampp\htdocs\kkp_login\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), NULL)
+#4 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(436): CodeIgniter\Filters\Filters->run('/', 'after')
+#5 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kkp_login\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-13 20:12:40 --> strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'strpos(): Passi...', 'C:\\xampp\\htdocs...', 413)
+#1 C:\xampp\htdocs\kkp_login\system\Debug\Toolbar.php(413): strpos(NULL, '<head>')
+#2 C:\xampp\htdocs\kkp_login\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+#3 C:\xampp\htdocs\kkp_login\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), NULL)
+#4 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(436): CodeIgniter\Filters\Filters->run('/', 'after')
+#5 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kkp_login\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-13 20:14:22 --> strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'strpos(): Passi...', 'C:\\xampp\\htdocs...', 413)
+#1 C:\xampp\htdocs\kkp_login\system\Debug\Toolbar.php(413): strpos(NULL, '<head>')
+#2 C:\xampp\htdocs\kkp_login\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+#3 C:\xampp\htdocs\kkp_login\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), NULL)
+#4 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(436): CodeIgniter\Filters\Filters->run('/', 'after')
+#5 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kkp_login\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-13 20:14:23 --> strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'strpos(): Passi...', 'C:\\xampp\\htdocs...', 413)
+#1 C:\xampp\htdocs\kkp_login\system\Debug\Toolbar.php(413): strpos(NULL, '<head>')
+#2 C:\xampp\htdocs\kkp_login\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+#3 C:\xampp\htdocs\kkp_login\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), NULL)
+#4 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(436): CodeIgniter\Filters\Filters->run('/', 'after')
+#5 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kkp_login\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-13 20:14:24 --> strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'strpos(): Passi...', 'C:\\xampp\\htdocs...', 413)
+#1 C:\xampp\htdocs\kkp_login\system\Debug\Toolbar.php(413): strpos(NULL, '<head>')
+#2 C:\xampp\htdocs\kkp_login\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+#3 C:\xampp\htdocs\kkp_login\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), NULL)
+#4 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(436): CodeIgniter\Filters\Filters->run('/', 'after')
+#5 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kkp_login\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-13 20:20:14 --> strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'strpos(): Passi...', 'C:\\xampp\\htdocs...', 413)
+#1 C:\xampp\htdocs\kkp_login\system\Debug\Toolbar.php(413): strpos(NULL, '<head>')
+#2 C:\xampp\htdocs\kkp_login\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+#3 C:\xampp\htdocs\kkp_login\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), NULL)
+#4 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(436): CodeIgniter\Filters\Filters->run('/', 'after')
+#5 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kkp_login\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-13 20:20:59 --> strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'strpos(): Passi...', 'C:\\xampp\\htdocs...', 413)
+#1 C:\xampp\htdocs\kkp_login\system\Debug\Toolbar.php(413): strpos(NULL, '<head>')
+#2 C:\xampp\htdocs\kkp_login\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+#3 C:\xampp\htdocs\kkp_login\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), NULL)
+#4 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(436): CodeIgniter\Filters\Filters->run('home_anggota', 'after')
+#5 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kkp_login\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

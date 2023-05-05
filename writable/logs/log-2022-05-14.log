@@ -1,0 +1,533 @@
+CRITICAL - 2022-05-14 19:30:40 --> strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'strpos(): Passi...', 'C:\\xampp\\htdocs...', 413)
+#1 C:\xampp\htdocs\kkp_login\system\Debug\Toolbar.php(413): strpos(NULL, '<head>')
+#2 C:\xampp\htdocs\kkp_login\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+#3 C:\xampp\htdocs\kkp_login\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), NULL)
+#4 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(436): CodeIgniter\Filters\Filters->run('/', 'after')
+#5 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kkp_login\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-14 19:31:15 --> strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'strpos(): Passi...', 'C:\\xampp\\htdocs...', 413)
+#1 C:\xampp\htdocs\kkp_login\system\Debug\Toolbar.php(413): strpos(NULL, '<head>')
+#2 C:\xampp\htdocs\kkp_login\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+#3 C:\xampp\htdocs\kkp_login\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), NULL)
+#4 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(436): CodeIgniter\Filters\Filters->run('/', 'after')
+#5 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kkp_login\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-14 19:31:56 --> strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'strpos(): Passi...', 'C:\\xampp\\htdocs...', 413)
+#1 C:\xampp\htdocs\kkp_login\system\Debug\Toolbar.php(413): strpos(NULL, '<head>')
+#2 C:\xampp\htdocs\kkp_login\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+#3 C:\xampp\htdocs\kkp_login\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), NULL)
+#4 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(436): CodeIgniter\Filters\Filters->run('/', 'after')
+#5 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kkp_login\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-14 19:36:49 --> strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'strpos(): Passi...', 'C:\\xampp\\htdocs...', 413)
+#1 C:\xampp\htdocs\kkp_login\system\Debug\Toolbar.php(413): strpos(NULL, '<head>')
+#2 C:\xampp\htdocs\kkp_login\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+#3 C:\xampp\htdocs\kkp_login\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), NULL)
+#4 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(436): CodeIgniter\Filters\Filters->run('/', 'after')
+#5 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kkp_login\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-14 19:38:50 --> Attempt to read property "username" on null
+#0 C:\xampp\htdocs\kkp_login\app\Views\m_penelitian\monev_penelitian.php(110): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 110)
+#1 C:\xampp\htdocs\kkp_login\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kkp_login\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kkp_login\system\Common.php(1089): CodeIgniter\View\View->render('m_penelitian/mo...', Array, true)
+#4 C:\xampp\htdocs\kkp_login\app\Controllers\Backend.php(39): view('m_penelitian/mo...', Array)
+#5 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(832): App\Controllers\Backend->monev_penelitian()
+#6 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+#7 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kkp_login\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-14 19:39:18 --> strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'strpos(): Passi...', 'C:\\xampp\\htdocs...', 413)
+#1 C:\xampp\htdocs\kkp_login\system\Debug\Toolbar.php(413): strpos(NULL, '<head>')
+#2 C:\xampp\htdocs\kkp_login\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+#3 C:\xampp\htdocs\kkp_login\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), NULL)
+#4 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(436): CodeIgniter\Filters\Filters->run('/', 'after')
+#5 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kkp_login\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-14 19:40:38 --> strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'strpos(): Passi...', 'C:\\xampp\\htdocs...', 413)
+#1 C:\xampp\htdocs\kkp_login\system\Debug\Toolbar.php(413): strpos(NULL, '<head>')
+#2 C:\xampp\htdocs\kkp_login\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+#3 C:\xampp\htdocs\kkp_login\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), NULL)
+#4 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(436): CodeIgniter\Filters\Filters->run('register', 'after')
+#5 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kkp_login\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-14 19:44:33 --> strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'strpos(): Passi...', 'C:\\xampp\\htdocs...', 413)
+#1 C:\xampp\htdocs\kkp_login\system\Debug\Toolbar.php(413): strpos(NULL, '<head>')
+#2 C:\xampp\htdocs\kkp_login\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+#3 C:\xampp\htdocs\kkp_login\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), NULL)
+#4 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(436): CodeIgniter\Filters\Filters->run('/', 'after')
+#5 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kkp_login\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-14 19:46:44 --> Attempt to read property "username" on null
+#0 C:\xampp\htdocs\kkp_login\app\Views\layout\v_topbar.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 18)
+#1 C:\xampp\htdocs\kkp_login\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kkp_login\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kkp_login\system\Common.php(1089): CodeIgniter\View\View->render('layout/v_topbar', Array, true)
+#4 C:\xampp\htdocs\kkp_login\app\Controllers\Backend.php(26): view('layout/v_topbar')
+#5 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(832): App\Controllers\Backend->dashboard()
+#6 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+#7 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kkp_login\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-14 19:46:52 --> Attempt to read property "username" on null
+#0 C:\xampp\htdocs\kkp_login\app\Views\m_penelitian\monev_penelitian.php(110): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 110)
+#1 C:\xampp\htdocs\kkp_login\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kkp_login\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kkp_login\system\Common.php(1089): CodeIgniter\View\View->render('m_penelitian/mo...', Array, true)
+#4 C:\xampp\htdocs\kkp_login\app\Controllers\Backend.php(39): view('m_penelitian/mo...', Array)
+#5 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(832): App\Controllers\Backend->monev_penelitian()
+#6 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+#7 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kkp_login\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-14 19:47:11 --> Attempt to read property "username" on null
+#0 C:\xampp\htdocs\kkp_login\app\Views\m_penelitian\monev_penelitian.php(110): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 110)
+#1 C:\xampp\htdocs\kkp_login\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kkp_login\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kkp_login\system\Common.php(1089): CodeIgniter\View\View->render('m_penelitian/mo...', Array, true)
+#4 C:\xampp\htdocs\kkp_login\app\Controllers\Backend.php(39): view('m_penelitian/mo...', Array)
+#5 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(832): App\Controllers\Backend->monev_penelitian()
+#6 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+#7 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kkp_login\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-14 19:47:12 --> Attempt to read property "username" on null
+#0 C:\xampp\htdocs\kkp_login\app\Views\layout\v_topbar.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 18)
+#1 C:\xampp\htdocs\kkp_login\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kkp_login\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kkp_login\system\Common.php(1089): CodeIgniter\View\View->render('layout/v_topbar', Array, true)
+#4 C:\xampp\htdocs\kkp_login\app\Controllers\Backend.php(26): view('layout/v_topbar')
+#5 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(832): App\Controllers\Backend->dashboard()
+#6 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+#7 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kkp_login\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-14 19:47:14 --> Attempt to read property "username" on null
+#0 C:\xampp\htdocs\kkp_login\app\Views\m_penelitian\monev_penelitian.php(110): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 110)
+#1 C:\xampp\htdocs\kkp_login\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kkp_login\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kkp_login\system\Common.php(1089): CodeIgniter\View\View->render('m_penelitian/mo...', Array, true)
+#4 C:\xampp\htdocs\kkp_login\app\Controllers\Backend.php(39): view('m_penelitian/mo...', Array)
+#5 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(832): App\Controllers\Backend->monev_penelitian()
+#6 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+#7 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kkp_login\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-14 19:47:24 --> Attempt to read property "username" on null
+#0 C:\xampp\htdocs\kkp_login\app\Views\layout\v_topbar.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 18)
+#1 C:\xampp\htdocs\kkp_login\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kkp_login\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kkp_login\system\Common.php(1089): CodeIgniter\View\View->render('layout/v_topbar', Array, true)
+#4 C:\xampp\htdocs\kkp_login\app\Controllers\Backend.php(26): view('layout/v_topbar')
+#5 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(832): App\Controllers\Backend->dashboard()
+#6 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+#7 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kkp_login\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-14 19:47:30 --> Attempt to read property "username" on null
+#0 C:\xampp\htdocs\kkp_login\app\Views\layout\v_topbar.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 18)
+#1 C:\xampp\htdocs\kkp_login\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kkp_login\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kkp_login\system\Common.php(1089): CodeIgniter\View\View->render('layout/v_topbar', Array, true)
+#4 C:\xampp\htdocs\kkp_login\app\Controllers\Backend.php(26): view('layout/v_topbar')
+#5 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(832): App\Controllers\Backend->dashboard()
+#6 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+#7 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kkp_login\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-14 19:49:02 --> Attempt to read property "username" on null
+#0 C:\xampp\htdocs\kkp_login\app\Views\m_penelitian\monev_penelitian.php(110): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 110)
+#1 C:\xampp\htdocs\kkp_login\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kkp_login\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kkp_login\system\Common.php(1089): CodeIgniter\View\View->render('m_penelitian/mo...', Array, true)
+#4 C:\xampp\htdocs\kkp_login\app\Controllers\Backend.php(39): view('m_penelitian/mo...', Array)
+#5 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(832): App\Controllers\Backend->monev_penelitian()
+#6 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+#7 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kkp_login\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-14 19:49:45 --> strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'strpos(): Passi...', 'C:\\xampp\\htdocs...', 413)
+#1 C:\xampp\htdocs\kkp_login\system\Debug\Toolbar.php(413): strpos(NULL, '<head>')
+#2 C:\xampp\htdocs\kkp_login\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+#3 C:\xampp\htdocs\kkp_login\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), NULL)
+#4 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(436): CodeIgniter\Filters\Filters->run('/', 'after')
+#5 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kkp_login\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-14 19:50:15 --> strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'strpos(): Passi...', 'C:\\xampp\\htdocs...', 413)
+#1 C:\xampp\htdocs\kkp_login\system\Debug\Toolbar.php(413): strpos(NULL, '<head>')
+#2 C:\xampp\htdocs\kkp_login\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+#3 C:\xampp\htdocs\kkp_login\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), NULL)
+#4 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(436): CodeIgniter\Filters\Filters->run('/', 'after')
+#5 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kkp_login\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-14 19:55:12 --> strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'strpos(): Passi...', 'C:\\xampp\\htdocs...', 413)
+#1 C:\xampp\htdocs\kkp_login\system\Debug\Toolbar.php(413): strpos(NULL, '<head>')
+#2 C:\xampp\htdocs\kkp_login\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+#3 C:\xampp\htdocs\kkp_login\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), NULL)
+#4 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(436): CodeIgniter\Filters\Filters->run('/', 'after')
+#5 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kkp_login\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-14 19:56:43 --> trim(): Argument #1 ($string) must be of type string, array given
+#0 C:\xampp\htdocs\kkp_login\system\Filters\Filters.php(532): trim(Array, '/ ')
+#1 C:\xampp\htdocs\kkp_login\system\Filters\Filters.php(466): CodeIgniter\Filters\Filters->pathApplies('register', Array)
+#2 C:\xampp\htdocs\kkp_login\system\Filters\Filters.php(232): CodeIgniter\Filters\Filters->processFilters('register')
+#3 C:\xampp\htdocs\kkp_login\system\Filters\Filters.php(163): CodeIgniter\Filters\Filters->initialize('register')
+#4 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('register', 'before')
+#5 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kkp_login\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-14 19:56:45 --> trim(): Argument #1 ($string) must be of type string, array given
+#0 C:\xampp\htdocs\kkp_login\system\Filters\Filters.php(532): trim(Array, '/ ')
+#1 C:\xampp\htdocs\kkp_login\system\Filters\Filters.php(466): CodeIgniter\Filters\Filters->pathApplies('', Array)
+#2 C:\xampp\htdocs\kkp_login\system\Filters\Filters.php(232): CodeIgniter\Filters\Filters->processFilters('')
+#3 C:\xampp\htdocs\kkp_login\system\Filters\Filters.php(163): CodeIgniter\Filters\Filters->initialize('/')
+#4 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('/', 'before')
+#5 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kkp_login\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-14 19:56:46 --> trim(): Argument #1 ($string) must be of type string, array given
+#0 C:\xampp\htdocs\kkp_login\system\Filters\Filters.php(532): trim(Array, '/ ')
+#1 C:\xampp\htdocs\kkp_login\system\Filters\Filters.php(466): CodeIgniter\Filters\Filters->pathApplies('monev_penelitia...', Array)
+#2 C:\xampp\htdocs\kkp_login\system\Filters\Filters.php(232): CodeIgniter\Filters\Filters->processFilters('monev_penelitia...')
+#3 C:\xampp\htdocs\kkp_login\system\Filters\Filters.php(163): CodeIgniter\Filters\Filters->initialize('monev_penelitia...')
+#4 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('monev_penelitia...', 'before')
+#5 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kkp_login\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-14 19:56:49 --> trim(): Argument #1 ($string) must be of type string, array given
+#0 C:\xampp\htdocs\kkp_login\system\Filters\Filters.php(532): trim(Array, '/ ')
+#1 C:\xampp\htdocs\kkp_login\system\Filters\Filters.php(466): CodeIgniter\Filters\Filters->pathApplies('monev_penelitia...', Array)
+#2 C:\xampp\htdocs\kkp_login\system\Filters\Filters.php(232): CodeIgniter\Filters\Filters->processFilters('monev_penelitia...')
+#3 C:\xampp\htdocs\kkp_login\system\Filters\Filters.php(163): CodeIgniter\Filters\Filters->initialize('monev_penelitia...')
+#4 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('monev_penelitia...', 'before')
+#5 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kkp_login\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-14 19:56:55 --> trim(): Argument #1 ($string) must be of type string, array given
+#0 C:\xampp\htdocs\kkp_login\system\Filters\Filters.php(532): trim(Array, '/ ')
+#1 C:\xampp\htdocs\kkp_login\system\Filters\Filters.php(466): CodeIgniter\Filters\Filters->pathApplies('', Array)
+#2 C:\xampp\htdocs\kkp_login\system\Filters\Filters.php(232): CodeIgniter\Filters\Filters->processFilters('')
+#3 C:\xampp\htdocs\kkp_login\system\Filters\Filters.php(163): CodeIgniter\Filters\Filters->initialize('/')
+#4 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('/', 'before')
+#5 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kkp_login\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-14 19:57:09 --> strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'strpos(): Passi...', 'C:\\xampp\\htdocs...', 413)
+#1 C:\xampp\htdocs\kkp_login\system\Debug\Toolbar.php(413): strpos(NULL, '<head>')
+#2 C:\xampp\htdocs\kkp_login\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+#3 C:\xampp\htdocs\kkp_login\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), NULL)
+#4 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(436): CodeIgniter\Filters\Filters->run('/', 'after')
+#5 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kkp_login\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-14 19:57:39 --> strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'strpos(): Passi...', 'C:\\xampp\\htdocs...', 413)
+#1 C:\xampp\htdocs\kkp_login\system\Debug\Toolbar.php(413): strpos(NULL, '<head>')
+#2 C:\xampp\htdocs\kkp_login\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+#3 C:\xampp\htdocs\kkp_login\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), NULL)
+#4 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(436): CodeIgniter\Filters\Filters->run('/', 'after')
+#5 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kkp_login\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-14 19:57:49 --> trim(): Argument #1 ($string) must be of type string, array given
+#0 C:\xampp\htdocs\kkp_login\system\Filters\Filters.php(532): trim(Array, '/ ')
+#1 C:\xampp\htdocs\kkp_login\system\Filters\Filters.php(466): CodeIgniter\Filters\Filters->pathApplies('dashboard', Array)
+#2 C:\xampp\htdocs\kkp_login\system\Filters\Filters.php(232): CodeIgniter\Filters\Filters->processFilters('dashboard')
+#3 C:\xampp\htdocs\kkp_login\system\Filters\Filters.php(163): CodeIgniter\Filters\Filters->initialize('dashboard')
+#4 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('dashboard', 'before')
+#5 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kkp_login\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-14 20:05:01 --> strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'strpos(): Passi...', 'C:\\xampp\\htdocs...', 413)
+#1 C:\xampp\htdocs\kkp_login\system\Debug\Toolbar.php(413): strpos(NULL, '<head>')
+#2 C:\xampp\htdocs\kkp_login\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+#3 C:\xampp\htdocs\kkp_login\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), NULL)
+#4 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(436): CodeIgniter\Filters\Filters->run('/', 'after')
+#5 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kkp_login\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-14 20:05:07 --> strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'strpos(): Passi...', 'C:\\xampp\\htdocs...', 413)
+#1 C:\xampp\htdocs\kkp_login\system\Debug\Toolbar.php(413): strpos(NULL, '<head>')
+#2 C:\xampp\htdocs\kkp_login\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+#3 C:\xampp\htdocs\kkp_login\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), NULL)
+#4 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(436): CodeIgniter\Filters\Filters->run('/', 'after')
+#5 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kkp_login\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-14 20:05:10 --> strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'strpos(): Passi...', 'C:\\xampp\\htdocs...', 413)
+#1 C:\xampp\htdocs\kkp_login\system\Debug\Toolbar.php(413): strpos(NULL, '<head>')
+#2 C:\xampp\htdocs\kkp_login\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+#3 C:\xampp\htdocs\kkp_login\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), NULL)
+#4 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(436): CodeIgniter\Filters\Filters->run('/', 'after')
+#5 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kkp_login\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-14 20:05:46 --> strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'strpos(): Passi...', 'C:\\xampp\\htdocs...', 413)
+#1 C:\xampp\htdocs\kkp_login\system\Debug\Toolbar.php(413): strpos(NULL, '<head>')
+#2 C:\xampp\htdocs\kkp_login\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+#3 C:\xampp\htdocs\kkp_login\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), NULL)
+#4 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(436): CodeIgniter\Filters\Filters->run('/', 'after')
+#5 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kkp_login\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-14 20:06:32 --> strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'strpos(): Passi...', 'C:\\xampp\\htdocs...', 413)
+#1 C:\xampp\htdocs\kkp_login\system\Debug\Toolbar.php(413): strpos(NULL, '<head>')
+#2 C:\xampp\htdocs\kkp_login\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+#3 C:\xampp\htdocs\kkp_login\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), NULL)
+#4 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(436): CodeIgniter\Filters\Filters->run('/', 'after')
+#5 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kkp_login\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-14 20:07:39 --> strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'strpos(): Passi...', 'C:\\xampp\\htdocs...', 413)
+#1 C:\xampp\htdocs\kkp_login\system\Debug\Toolbar.php(413): strpos(NULL, '<head>')
+#2 C:\xampp\htdocs\kkp_login\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+#3 C:\xampp\htdocs\kkp_login\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), NULL)
+#4 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(436): CodeIgniter\Filters\Filters->run('/', 'after')
+#5 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kkp_login\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-14 20:07:54 --> strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'strpos(): Passi...', 'C:\\xampp\\htdocs...', 413)
+#1 C:\xampp\htdocs\kkp_login\system\Debug\Toolbar.php(413): strpos(NULL, '<head>')
+#2 C:\xampp\htdocs\kkp_login\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+#3 C:\xampp\htdocs\kkp_login\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), NULL)
+#4 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(436): CodeIgniter\Filters\Filters->run('/', 'after')
+#5 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kkp_login\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-14 20:13:00 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\kkp_login\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\kkp_login\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\kkp_login\app\Controllers\Backend.php(48): CodeIgniter\Model->__call('get_id_user', Array)
+#3 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(832): App\Controllers\Backend->profile('1')
+#4 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+#5 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kkp_login\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-14 20:24:32 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\kkp_login\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\kkp_login\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\kkp_login\system\Common.php(1089): CodeIgniter\View\View->render('m_penelitian/pr...', Array, true)
+#3 C:\xampp\htdocs\kkp_login\app\Controllers\Backend.php(51): view('m_penelitian/pr...', Array)
+#4 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(832): App\Controllers\Backend->profile('1')
+#5 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+#6 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\kkp_login\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-14 21:08:20 --> Too few arguments to function App\Controllers\Backend::ubah_profile(), 0 passed in C:\xampp\htdocs\kkp_login\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(832): App\Controllers\Backend->ubah_profile()
+#1 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+#2 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\kkp_login\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-14 21:16:20 --> Attempt to read property "username" on null
+#0 C:\xampp\htdocs\kkp_login\app\Views\m_penelitian\monev_penelitian.php(110): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 110)
+#1 C:\xampp\htdocs\kkp_login\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kkp_login\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kkp_login\system\Common.php(1089): CodeIgniter\View\View->render('m_penelitian/mo...', Array, true)
+#4 C:\xampp\htdocs\kkp_login\app\Controllers\Backend.php(40): view('m_penelitian/mo...', Array)
+#5 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(832): App\Controllers\Backend->monev_penelitian()
+#6 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+#7 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kkp_login\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-14 21:16:33 --> Attempt to read property "username" on null
+#0 C:\xampp\htdocs\kkp_login\app\Views\m_penelitian\profile.php(134): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 134)
+#1 C:\xampp\htdocs\kkp_login\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kkp_login\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kkp_login\system\Common.php(1089): CodeIgniter\View\View->render('m_penelitian/pr...', Array, true)
+#4 C:\xampp\htdocs\kkp_login\app\Controllers\Backend.php(52): view('m_penelitian/pr...', Array)
+#5 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(832): App\Controllers\Backend->profile('2')
+#6 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+#7 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kkp_login\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-14 21:16:34 --> Attempt to read property "username" on null
+#0 C:\xampp\htdocs\kkp_login\app\Views\m_penelitian\profile.php(134): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 134)
+#1 C:\xampp\htdocs\kkp_login\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kkp_login\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kkp_login\system\Common.php(1089): CodeIgniter\View\View->render('m_penelitian/pr...', Array, true)
+#4 C:\xampp\htdocs\kkp_login\app\Controllers\Backend.php(52): view('m_penelitian/pr...', Array)
+#5 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(832): App\Controllers\Backend->profile('2')
+#6 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+#7 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kkp_login\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-14 21:16:35 --> Attempt to read property "username" on null
+#0 C:\xampp\htdocs\kkp_login\app\Views\m_penelitian\profile.php(134): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 134)
+#1 C:\xampp\htdocs\kkp_login\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kkp_login\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kkp_login\system\Common.php(1089): CodeIgniter\View\View->render('m_penelitian/pr...', Array, true)
+#4 C:\xampp\htdocs\kkp_login\app\Controllers\Backend.php(52): view('m_penelitian/pr...', Array)
+#5 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(832): App\Controllers\Backend->profile('2')
+#6 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+#7 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kkp_login\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-14 21:16:36 --> Attempt to read property "username" on null
+#0 C:\xampp\htdocs\kkp_login\app\Views\m_penelitian\profile.php(134): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 134)
+#1 C:\xampp\htdocs\kkp_login\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kkp_login\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kkp_login\system\Common.php(1089): CodeIgniter\View\View->render('m_penelitian/pr...', Array, true)
+#4 C:\xampp\htdocs\kkp_login\app\Controllers\Backend.php(52): view('m_penelitian/pr...', Array)
+#5 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(832): App\Controllers\Backend->profile('2')
+#6 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+#7 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kkp_login\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-14 21:16:36 --> Attempt to read property "username" on null
+#0 C:\xampp\htdocs\kkp_login\app\Views\m_penelitian\profile.php(134): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 134)
+#1 C:\xampp\htdocs\kkp_login\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kkp_login\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kkp_login\system\Common.php(1089): CodeIgniter\View\View->render('m_penelitian/pr...', Array, true)
+#4 C:\xampp\htdocs\kkp_login\app\Controllers\Backend.php(52): view('m_penelitian/pr...', Array)
+#5 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(832): App\Controllers\Backend->profile('2')
+#6 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+#7 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kkp_login\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-14 21:16:37 --> Attempt to read property "username" on null
+#0 C:\xampp\htdocs\kkp_login\app\Views\m_penelitian\monev_penelitian.php(110): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 110)
+#1 C:\xampp\htdocs\kkp_login\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kkp_login\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kkp_login\system\Common.php(1089): CodeIgniter\View\View->render('m_penelitian/mo...', Array, true)
+#4 C:\xampp\htdocs\kkp_login\app\Controllers\Backend.php(40): view('m_penelitian/mo...', Array)
+#5 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(832): App\Controllers\Backend->monev_penelitian()
+#6 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+#7 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kkp_login\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-14 21:16:44 --> strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'strpos(): Passi...', 'C:\\xampp\\htdocs...', 413)
+#1 C:\xampp\htdocs\kkp_login\system\Debug\Toolbar.php(413): strpos(NULL, '<head>')
+#2 C:\xampp\htdocs\kkp_login\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+#3 C:\xampp\htdocs\kkp_login\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), NULL)
+#4 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(436): CodeIgniter\Filters\Filters->run('/', 'after')
+#5 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kkp_login\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-14 21:16:47 --> Attempt to read property "username" on null
+#0 C:\xampp\htdocs\kkp_login\app\Views\m_penelitian\monev_penelitian.php(110): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 110)
+#1 C:\xampp\htdocs\kkp_login\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kkp_login\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kkp_login\system\Common.php(1089): CodeIgniter\View\View->render('m_penelitian/mo...', Array, true)
+#4 C:\xampp\htdocs\kkp_login\app\Controllers\Backend.php(40): view('m_penelitian/mo...', Array)
+#5 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(832): App\Controllers\Backend->monev_penelitian()
+#6 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+#7 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kkp_login\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-14 21:18:06 --> Attempt to read property "username" on null
+#0 C:\xampp\htdocs\kkp_login\app\Views\m_penelitian\monev_penelitian.php(110): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 110)
+#1 C:\xampp\htdocs\kkp_login\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kkp_login\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kkp_login\system\Common.php(1089): CodeIgniter\View\View->render('m_penelitian/mo...', Array, true)
+#4 C:\xampp\htdocs\kkp_login\app\Controllers\Backend.php(40): view('m_penelitian/mo...', Array)
+#5 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(832): App\Controllers\Backend->monev_penelitian()
+#6 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+#7 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kkp_login\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-14 21:18:56 --> Attempt to read property "id" on null
+#0 C:\xampp\htdocs\kkp_login\app\Views\m_penelitian\monev_penelitian.php(115): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 115)
+#1 C:\xampp\htdocs\kkp_login\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kkp_login\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kkp_login\system\Common.php(1089): CodeIgniter\View\View->render('m_penelitian/mo...', Array, true)
+#4 C:\xampp\htdocs\kkp_login\app\Controllers\Backend.php(40): view('m_penelitian/mo...', Array)
+#5 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(832): App\Controllers\Backend->monev_penelitian()
+#6 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+#7 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kkp_login\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-14 21:23:27 --> Attempt to read property "username" on null
+#0 C:\xampp\htdocs\kkp_login\app\Views\m_penelitian\monev_penelitian.php(110): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 110)
+#1 C:\xampp\htdocs\kkp_login\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kkp_login\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kkp_login\system\Common.php(1089): CodeIgniter\View\View->render('m_penelitian/mo...', Array, true)
+#4 C:\xampp\htdocs\kkp_login\app\Controllers\Backend.php(40): view('m_penelitian/mo...', Array)
+#5 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(832): App\Controllers\Backend->monev_penelitian()
+#6 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+#7 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kkp_login\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-14 21:28:34 --> CodeIgniter\BaseModel::transformDataToArray(): Return value must be of type array, string returned
+#0 C:\xampp\htdocs\kkp_login\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray('5', 'update')
+#1 C:\xampp\htdocs\kkp_login\system\Model.php(651): CodeIgniter\BaseModel->update(Array, '5')
+#2 C:\xampp\htdocs\kkp_login\app\Controllers\Backend.php(331): CodeIgniter\Model->update(Array, '5')
+#3 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(832): App\Controllers\Backend->ubah_profile('5')
+#4 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+#5 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kkp_login\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-14 21:30:50 --> Attempt to read property "username" on null
+#0 C:\xampp\htdocs\kkp_login\app\Views\m_penelitian\monev_penelitian.php(110): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 110)
+#1 C:\xampp\htdocs\kkp_login\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kkp_login\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kkp_login\system\Common.php(1089): CodeIgniter\View\View->render('m_penelitian/mo...', Array, true)
+#4 C:\xampp\htdocs\kkp_login\app\Controllers\Backend.php(40): view('m_penelitian/mo...', Array)
+#5 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(832): App\Controllers\Backend->monev_penelitian()
+#6 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+#7 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kkp_login\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-14 21:39:14 --> Undefined property: App\Controllers\Auth::$model
+#0 C:\xampp\htdocs\kkp_login\app\Controllers\Auth.php(130): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 130)
+#1 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(832): App\Controllers\Auth->ubah_profile('6')
+#2 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kkp_login\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-14 22:19:22 --> strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'strpos(): Passi...', 'C:\\xampp\\htdocs...', 413)
+#1 C:\xampp\htdocs\kkp_login\system\Debug\Toolbar.php(413): strpos(NULL, '<head>')
+#2 C:\xampp\htdocs\kkp_login\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+#3 C:\xampp\htdocs\kkp_login\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), NULL)
+#4 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(436): CodeIgniter\Filters\Filters->run('/', 'after')
+#5 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kkp_login\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-14 22:19:25 --> strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'strpos(): Passi...', 'C:\\xampp\\htdocs...', 413)
+#1 C:\xampp\htdocs\kkp_login\system\Debug\Toolbar.php(413): strpos(NULL, '<head>')
+#2 C:\xampp\htdocs\kkp_login\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+#3 C:\xampp\htdocs\kkp_login\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), NULL)
+#4 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(436): CodeIgniter\Filters\Filters->run('/', 'after')
+#5 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kkp_login\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-14 22:19:30 --> strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'strpos(): Passi...', 'C:\\xampp\\htdocs...', 413)
+#1 C:\xampp\htdocs\kkp_login\system\Debug\Toolbar.php(413): strpos(NULL, '<head>')
+#2 C:\xampp\htdocs\kkp_login\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+#3 C:\xampp\htdocs\kkp_login\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), NULL)
+#4 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(436): CodeIgniter\Filters\Filters->run('/', 'after')
+#5 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kkp_login\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

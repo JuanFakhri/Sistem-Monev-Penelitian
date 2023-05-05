@@ -1,0 +1,203 @@
+CRITICAL - 2022-05-08 09:57:26 --> Deletes are not allowed unless they contain a "where" or "like" clause.
+#0 C:\xampp\htdocs\kkp_login\system\Model.php(359): CodeIgniter\Database\BaseBuilder->delete()
+#1 C:\xampp\htdocs\kkp_login\system\BaseModel.php(963): CodeIgniter\Model->doDelete(NULL, false)
+#2 C:\xampp\htdocs\kkp_login\app\Controllers\Backend.php(211): CodeIgniter\BaseModel->delete(NULL)
+#3 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(832): App\Controllers\Backend->delete()
+#4 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+#5 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kkp_login\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-08 09:57:53 --> Deletes are not allowed unless they contain a "where" or "like" clause.
+#0 C:\xampp\htdocs\kkp_login\system\Model.php(359): CodeIgniter\Database\BaseBuilder->delete()
+#1 C:\xampp\htdocs\kkp_login\system\BaseModel.php(963): CodeIgniter\Model->doDelete(NULL, false)
+#2 C:\xampp\htdocs\kkp_login\app\Controllers\Backend.php(211): CodeIgniter\BaseModel->delete(NULL)
+#3 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(832): App\Controllers\Backend->delete()
+#4 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+#5 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kkp_login\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-08 10:01:40 --> Deletes are not allowed unless they contain a "where" or "like" clause.
+#0 C:\xampp\htdocs\kkp_login\system\Model.php(359): CodeIgniter\Database\BaseBuilder->delete()
+#1 C:\xampp\htdocs\kkp_login\system\BaseModel.php(963): CodeIgniter\Model->doDelete(NULL, false)
+#2 C:\xampp\htdocs\kkp_login\app\Controllers\Backend.php(211): CodeIgniter\BaseModel->delete(NULL)
+#3 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(832): App\Controllers\Backend->delete()
+#4 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+#5 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kkp_login\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-08 10:01:52 --> Deletes are not allowed unless they contain a "where" or "like" clause.
+#0 C:\xampp\htdocs\kkp_login\system\Model.php(359): CodeIgniter\Database\BaseBuilder->delete()
+#1 C:\xampp\htdocs\kkp_login\system\BaseModel.php(963): CodeIgniter\Model->doDelete(NULL, false)
+#2 C:\xampp\htdocs\kkp_login\app\Controllers\Backend.php(211): CodeIgniter\BaseModel->delete(NULL)
+#3 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(832): App\Controllers\Backend->delete()
+#4 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+#5 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kkp_login\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-05-08 10:15:17 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'IS NULL' at line 2
+CRITICAL - 2022-05-08 10:15:17 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'IS NULL' at line 2
+#0 C:\xampp\htdocs\kkp_login\system\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `da...', 0)
+#1 C:\xampp\htdocs\kkp_login\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `da...')
+#2 C:\xampp\htdocs\kkp_login\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `da...')
+#3 C:\xampp\htdocs\kkp_login\system\Database\BaseBuilder.php(2225): CodeIgniter\Database\BaseConnection->query('DELETE FROM `da...', Array, false)
+#4 C:\xampp\htdocs\kkp_login\app\Models\M_Siswa.php(59): CodeIgniter\Database\BaseBuilder->delete(NULL)
+#5 C:\xampp\htdocs\kkp_login\app\Controllers\Backend.php(207): App\Models\M_Siswa->hapus2(NULL)
+#6 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(832): App\Controllers\Backend->hapus2()
+#7 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+#8 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\kkp_login\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-05-08 10:21:40 --> Undefined array key "id"
+#0 C:\xampp\htdocs\kkp_login\app\Views\m_penelitian\monev_penelitian.php(342): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 342)
+#1 C:\xampp\htdocs\kkp_login\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kkp_login\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kkp_login\system\Common.php(1089): CodeIgniter\View\View->render('m_penelitian/mo...', Array, true)
+#4 C:\xampp\htdocs\kkp_login\app\Controllers\Backend.php(35): view('m_penelitian/mo...', Array)
+#5 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(832): App\Controllers\Backend->monev_penelitian()
+#6 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+#7 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kkp_login\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-08 10:22:18 --> Undefined array key "id"
+#0 C:\xampp\htdocs\kkp_login\app\Views\m_penelitian\monev_penelitian.php(342): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 342)
+#1 C:\xampp\htdocs\kkp_login\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kkp_login\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kkp_login\system\Common.php(1089): CodeIgniter\View\View->render('m_penelitian/mo...', Array, true)
+#4 C:\xampp\htdocs\kkp_login\app\Controllers\Backend.php(37): view('m_penelitian/mo...', Array)
+#5 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(832): App\Controllers\Backend->monev_penelitian()
+#6 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+#7 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kkp_login\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-08 10:22:19 --> Undefined array key "id"
+#0 C:\xampp\htdocs\kkp_login\app\Views\m_penelitian\monev_penelitian.php(342): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 342)
+#1 C:\xampp\htdocs\kkp_login\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kkp_login\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kkp_login\system\Common.php(1089): CodeIgniter\View\View->render('m_penelitian/mo...', Array, true)
+#4 C:\xampp\htdocs\kkp_login\app\Controllers\Backend.php(37): view('m_penelitian/mo...', Array)
+#5 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(832): App\Controllers\Backend->monev_penelitian()
+#6 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+#7 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kkp_login\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-08 10:22:26 --> Undefined array key "id"
+#0 C:\xampp\htdocs\kkp_login\app\Views\m_penelitian\monev_penelitian.php(342): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 342)
+#1 C:\xampp\htdocs\kkp_login\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kkp_login\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kkp_login\system\Common.php(1089): CodeIgniter\View\View->render('m_penelitian/mo...', Array, true)
+#4 C:\xampp\htdocs\kkp_login\app\Controllers\Backend.php(37): view('m_penelitian/mo...', Array)
+#5 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(832): App\Controllers\Backend->monev_penelitian()
+#6 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+#7 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kkp_login\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-08 22:18:19 --> unlink(public/upload/file_coba_petajalan/ UTS-Proposal-Aplikasi-Pemr-Mobile.pdf): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(public/u...', 'C:\\xampp\\htdocs...', 59)
+#1 C:\xampp\htdocs\kkp_login\app\Models\M_Siswa.php(59): unlink('public/upload/f...')
+#2 C:\xampp\htdocs\kkp_login\app\Controllers\Backend.php(197): App\Models\M_Siswa->hapus2('5 ', ' UTS-Proposal-A...')
+#3 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(832): App\Controllers\Backend->hapus2('5 ', ' UTS-Proposal-A...', 'undefined')
+#4 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+#5 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kkp_login\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-08 22:19:07 --> unlink(public/upload/file_coba_petajalan/ KNN.pdf): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(public/u...', 'C:\\xampp\\htdocs...', 59)
+#1 C:\xampp\htdocs\kkp_login\app\Models\M_Siswa.php(59): unlink('public/upload/f...')
+#2 C:\xampp\htdocs\kkp_login\app\Controllers\Backend.php(197): App\Models\M_Siswa->hapus2('6 ', ' KNN.pdf')
+#3 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(832): App\Controllers\Backend->hapus2('6 ', ' KNN.pdf', 'undefined')
+#4 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+#5 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kkp_login\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-08 22:30:27 --> unlink(public/upload/file_coba_petajalan/ KNN.pdf): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(public/u...', 'C:\\xampp\\htdocs...', 59)
+#1 C:\xampp\htdocs\kkp_login\app\Models\M_Siswa.php(59): unlink('public/upload/f...')
+#2 C:\xampp\htdocs\kkp_login\app\Controllers\Backend.php(197): App\Models\M_Siswa->hapus2('7 ', ' KNN.pdf')
+#3 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(832): App\Controllers\Backend->hapus2('7 ', ' KNN.pdf')
+#4 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+#5 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kkp_login\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-08 23:03:00 --> Too few arguments to function App\Controllers\Backend::hapus2(), 1 passed in C:\xampp\htdocs\kkp_login\system\CodeIgniter.php on line 832 and exactly 2 expected
+#0 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(832): App\Controllers\Backend->hapus2('9 ')
+#1 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+#2 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\kkp_login\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-08 23:04:45 --> Too few arguments to function App\Controllers\Backend::hapus2(), 1 passed in C:\xampp\htdocs\kkp_login\system\CodeIgniter.php on line 832 and exactly 2 expected
+#0 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(832): App\Controllers\Backend->hapus2('9 ')
+#1 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+#2 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\kkp_login\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-08 23:13:15 --> Too few arguments to function App\Controllers\Backend::hapus2(), 1 passed in C:\xampp\htdocs\kkp_login\system\CodeIgniter.php on line 832 and exactly 2 expected
+#0 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(832): App\Controllers\Backend->hapus2('9 ')
+#1 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+#2 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\kkp_login\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-08 23:19:36 --> Too few arguments to function App\Controllers\Backend::hapus2(), 1 passed in C:\xampp\htdocs\kkp_login\system\CodeIgniter.php on line 832 and exactly 2 expected
+#0 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(832): App\Controllers\Backend->hapus2('9')
+#1 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+#2 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\kkp_login\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-08 23:20:47 --> Too few arguments to function App\Controllers\Backend::hapus2(), 1 passed in C:\xampp\htdocs\kkp_login\system\CodeIgniter.php on line 832 and exactly 2 expected
+#0 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(832): App\Controllers\Backend->hapus2('9')
+#1 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+#2 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\kkp_login\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-08 23:23:03 --> Too few arguments to function App\Controllers\Backend::hapus2(), 1 passed in C:\xampp\htdocs\kkp_login\system\CodeIgniter.php on line 832 and exactly 2 expected
+#0 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(832): App\Controllers\Backend->hapus2('9')
+#1 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+#2 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\kkp_login\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-08 23:23:23 --> Too few arguments to function App\Controllers\Backend::hapus2(), 1 passed in C:\xampp\htdocs\kkp_login\system\CodeIgniter.php on line 832 and exactly 2 expected
+#0 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(832): App\Controllers\Backend->hapus2('9')
+#1 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+#2 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\kkp_login\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-08 23:23:26 --> Too few arguments to function App\Controllers\Backend::hapus2(), 1 passed in C:\xampp\htdocs\kkp_login\system\CodeIgniter.php on line 832 and exactly 2 expected
+#0 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(832): App\Controllers\Backend->hapus2('9')
+#1 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+#2 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\kkp_login\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-08 23:24:37 --> Too few arguments to function App\Controllers\Backend::hapus2(), 1 passed in C:\xampp\htdocs\kkp_login\system\CodeIgniter.php on line 832 and exactly 2 expected
+#0 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(832): App\Controllers\Backend->hapus2('10')
+#1 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+#2 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\kkp_login\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-08 23:25:02 --> Too few arguments to function App\Controllers\Backend::hapus2(), 1 passed in C:\xampp\htdocs\kkp_login\system\CodeIgniter.php on line 832 and exactly 2 expected
+#0 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(832): App\Controllers\Backend->hapus2('9')
+#1 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+#2 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\kkp_login\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-08 23:28:07 --> Too few arguments to function App\Controllers\Backend::hapus2(), 1 passed in C:\xampp\htdocs\kkp_login\system\CodeIgniter.php on line 832 and exactly 2 expected
+#0 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(832): App\Controllers\Backend->hapus2('9')
+#1 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+#2 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\kkp_login\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-08 23:33:02 --> CodeIgniter\Validation\FileRules::uploaded(): Argument #2 ($name) must be of type string, null given, called in C:\xampp\htdocs\kkp_login\system\Validation\Validation.php on line 291
+#0 C:\xampp\htdocs\kkp_login\system\Validation\Validation.php(291): CodeIgniter\Validation\FileRules->uploaded(NULL, NULL)
+#1 C:\xampp\htdocs\kkp_login\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('peta_jalan', 'petajalan', NULL, Array, Array)
+#2 C:\xampp\htdocs\kkp_login\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\kkp_login\app\Controllers\Backend.php(108): CodeIgniter\Controller->validate(Array)
+#4 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(832): App\Controllers\Backend->tambah_data2()
+#5 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+#6 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\kkp_login\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-08 23:50:12 --> Undefined array key "ubah_tahun"
+#0 C:\xampp\htdocs\kkp_login\app\Controllers\Backend.php(282): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 282)
+#1 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(832): App\Controllers\Backend->ubah_data2()
+#2 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+#3 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kkp_login\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

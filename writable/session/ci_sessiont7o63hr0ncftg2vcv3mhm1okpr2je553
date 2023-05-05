@@ -1,0 +1,9 @@
+__ci_last_regenerate|i:1652615931;_ci_previous_url|s:48:"http://localhost:8080/kkp_login/monev_penelitian";log|b:1;username|s:4:"juan";email|s:22:"juanfakhri02@gmail.com";akses|s:1:"3";err|s:228:"<!-- DEBUG-VIEW START 1 SYSTEMPATH\Validation\Views\list.php -->
+	<div class="errors" role="alert">
+		<ul>
+					<li>Maksimul Gambar 5kb</li>
+				</ul>
+	</div>
+
+<!-- DEBUG-VIEW ENDED 1 SYSTEMPATH\Validation\Views\list.php -->
+";__ci_vars|a:1:{s:3:"err";s:3:"old";}

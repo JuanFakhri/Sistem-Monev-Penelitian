@@ -1,0 +1,29 @@
+CRITICAL - 2022-04-10 23:02:43 --> Invalid file: layout/home_prodi.php
+#0 C:\xampp\htdocs\kkp_login\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/home_pro...')
+#1 C:\xampp\htdocs\kkp_login\system\Common.php(1089): CodeIgniter\View\View->render('layout/home_pro...', Array, true)
+#2 C:\xampp\htdocs\kkp_login\app\Controllers\Home.php(29): view('layout/home_pro...')
+#3 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(832): App\Controllers\Home->home_prodi()
+#4 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kkp_login\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-10 23:03:01 --> Invalid file: layout/home_prodi.php
+#0 C:\xampp\htdocs\kkp_login\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/home_pro...')
+#1 C:\xampp\htdocs\kkp_login\system\Common.php(1089): CodeIgniter\View\View->render('layout/home_pro...', Array, true)
+#2 C:\xampp\htdocs\kkp_login\app\Controllers\Home.php(29): view('layout/home_pro...')
+#3 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(832): App\Controllers\Home->home_prodi()
+#4 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kkp_login\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-10 23:59:13 --> Undefined variable $siswa
+#0 C:\xampp\htdocs\kkp_login\app\Views\prodi\home_prodi.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 7)
+#1 C:\xampp\htdocs\kkp_login\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kkp_login\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kkp_login\system\Common.php(1089): CodeIgniter\View\View->render('prodi/home_prod...', Array, true)
+#4 C:\xampp\htdocs\kkp_login\app\Controllers\Home.php(35): view('prodi/home_prod...')
+#5 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(832): App\Controllers\Home->home_prodi()
+#6 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kkp_login\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

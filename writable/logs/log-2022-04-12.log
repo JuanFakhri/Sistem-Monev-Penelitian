@@ -1,0 +1,128 @@
+ERROR - 2022-04-12 01:01:04 --> Table 'monev_penelitian.user' doesn't exist in engine
+CRITICAL - 2022-04-12 01:01:04 --> Table 'monev_penelitian.user' doesn't exist in engine
+#0 C:\xampp\htdocs\kkp_login\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\kkp_login\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\kkp_login\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\kkp_login\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\kkp_login\app\Models\AuthModel.php(14): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\kkp_login\app\Controllers\Auth.php(58): App\Models\AuthModel->get_data_login('', 'user')
+#6 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(832): App\Controllers\Auth->get_login()
+#7 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#8 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\kkp_login\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-04-12 01:02:04 --> Table 'monev_penelitian.user' doesn't exist in engine
+CRITICAL - 2022-04-12 01:02:04 --> Table 'monev_penelitian.user' doesn't exist in engine
+#0 C:\xampp\htdocs\kkp_login\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 C:\xampp\htdocs\kkp_login\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 C:\xampp\htdocs\kkp_login\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 C:\xampp\htdocs\kkp_login\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\kkp_login\system\Validation\Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\kkp_login\system\Validation\Validation.php(292): CodeIgniter\Validation\Rules->is_unique('juan', 'username', Array, NULL)
+#6 C:\xampp\htdocs\kkp_login\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('user', 'user', 'juan', Array, Array)
+#7 C:\xampp\htdocs\kkp_login\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#8 C:\xampp\htdocs\kkp_login\app\Controllers\Auth.php(15): CodeIgniter\Controller->validate(Array)
+#9 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(832): App\Controllers\Auth->insert_user()
+#10 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#11 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\kkp_login\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-04-12 01:15:52 --> Table 'monev_penelitian.siswa' doesn't exist
+CRITICAL - 2022-04-12 01:15:52 --> Table 'monev_penelitian.siswa' doesn't exist
+#0 C:\xampp\htdocs\kkp_login\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\kkp_login\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\kkp_login\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\kkp_login\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\kkp_login\app\Models\M_Siswa.php(16): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\kkp_login\app\Controllers\Home.php(33): App\Models\M_Siswa->getAllData()
+#6 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(832): App\Controllers\Home->home_anggota()
+#7 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\kkp_login\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-04-12 01:17:53 --> Invalid file: anggota/home_anggota.php
+#0 C:\xampp\htdocs\kkp_login\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('anggota/home_an...')
+#1 C:\xampp\htdocs\kkp_login\system\Common.php(1089): CodeIgniter\View\View->render('anggota/home_an...', Array, true)
+#2 C:\xampp\htdocs\kkp_login\app\Controllers\Home.php(38): view('anggota/home_an...', Array)
+#3 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(832): App\Controllers\Home->home_anggota()
+#4 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kkp_login\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-12 01:19:15 --> Invalid file: anggota/home_anggota.php
+#0 C:\xampp\htdocs\kkp_login\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('anggota/home_an...')
+#1 C:\xampp\htdocs\kkp_login\system\Common.php(1089): CodeIgniter\View\View->render('anggota/home_an...', Array, true)
+#2 C:\xampp\htdocs\kkp_login\app\Controllers\Home.php(38): view('anggota/home_an...', Array)
+#3 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(832): App\Controllers\Home->home_anggota()
+#4 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kkp_login\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-12 01:20:39 --> Invalid file: anggota/home_anggota.php
+#0 C:\xampp\htdocs\kkp_login\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('anggota/home_an...')
+#1 C:\xampp\htdocs\kkp_login\system\Common.php(1089): CodeIgniter\View\View->render('anggota/home_an...', Array, true)
+#2 C:\xampp\htdocs\kkp_login\app\Controllers\Home.php(38): view('anggota/home_an...', Array)
+#3 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(832): App\Controllers\Home->home_anggota()
+#4 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kkp_login\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-12 01:34:36 --> Attempt to read property "akses" on null
+#0 C:\xampp\htdocs\kkp_login\app\Controllers\Auth.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 71)
+#1 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(832): App\Controllers\Auth->get_login()
+#2 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kkp_login\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-12 01:37:55 --> Undefined property: stdClass::$
+#0 C:\xampp\htdocs\kkp_login\app\Controllers\Auth.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 71)
+#1 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(832): App\Controllers\Auth->get_login()
+#2 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kkp_login\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-12 01:38:26 --> Undefined property: stdClass::$row_akses
+#0 C:\xampp\htdocs\kkp_login\app\Controllers\Auth.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 71)
+#1 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(832): App\Controllers\Auth->get_login()
+#2 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kkp_login\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-12 01:40:05 --> Attempt to read property "akses" on null
+#0 C:\xampp\htdocs\kkp_login\app\Controllers\Auth.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 69)
+#1 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(832): App\Controllers\Auth->get_login()
+#2 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kkp_login\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-12 01:42:55 --> Too few arguments to function App\Models\AuthModel::get_data_login(), 2 passed in C:\xampp\htdocs\kkp_login\app\Controllers\Auth.php on line 58 and exactly 3 expected
+#0 C:\xampp\htdocs\kkp_login\app\Controllers\Auth.php(58): App\Models\AuthModel->get_data_login('juan', 'user')
+#1 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(832): App\Controllers\Auth->get_login()
+#2 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kkp_login\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-12 19:54:40 --> Undefined variable $judul
+#0 C:\xampp\htdocs\kkp_login\app\Views\layout\v_header.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 12)
+#1 C:\xampp\htdocs\kkp_login\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kkp_login\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kkp_login\system\Common.php(1089): CodeIgniter\View\View->render('layout/v_header', Array, true)
+#4 C:\xampp\htdocs\kkp_login\app\Controllers\Home.php(43): view('layout/v_header')
+#5 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(832): App\Controllers\Home->dashboard()
+#6 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kkp_login\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-12 20:23:54 --> Call to undefined function counData()
+#0 C:\xampp\htdocs\kkp_login\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\kkp_login\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\kkp_login\system\Common.php(1089): CodeIgniter\View\View->render('/dashboard', Array, true)
+#3 C:\xampp\htdocs\kkp_login\app\Controllers\Home.php(49): view('/dashboard')
+#4 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(832): App\Controllers\Home->dashboard()
+#5 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\kkp_login\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\kkp_login\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-12 20:30:44 --> Cannot redeclare counUser() (previously declared in C:\xampp\htdocs\kkp_login\app\Views\dashboard.php:24)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
